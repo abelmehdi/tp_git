@@ -1,0 +1,10 @@
+APT::CDROM::NoMount "true";
+Acquire::cdrom {
+  mount "/cdrom";
+  "/cdrom/" {
+    Mount  "true";
+    UMount "true";
+  };
+  AutoDetect "false";
+};
+Dir::Media::MountPath "/cdrom";

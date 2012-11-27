@@ -1,0 +1,16 @@
+
+[connection]
+id=unicaen
+uuid=6825a57e-e52d-41f6-9d81-21070e5f83b7
+type=802-11-wireless
+
+[802-11-wireless]
+ssid=unicaen
+mode=infrastructure
+mac-address=00:1E:65:1E:37:BC
+
+[ipv6]
+method=auto
+
+[ipv4]
+method=auto
