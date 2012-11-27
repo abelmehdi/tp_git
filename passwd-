@@ -32,4 +32,4 @@ speech-dispatcher:x:112:29:Speech Dispatcher,,,:/var/run/speech-dispatcher:/bin/
 hplip:x:113:7:HPLIP system user,,,:/var/run/hplip:/bin/false
 saned:x:114:123::/home/saned:/bin/false
 mehdi:x:1000:1000:Mehdi,,,:/home/mehdi:/bin/bash
-mysql:x:115:125::/nonexistent:/bin/false
+mysql:x:115:125:MySQL Server,,,:/nonexistent:/bin/false
