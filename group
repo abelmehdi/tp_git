@@ -65,3 +65,4 @@ sambashare:x:124:mehdi
 mysql:x:125:
 vboxusers:x:126:
 francois:x:1001:
+test:x:1002:
