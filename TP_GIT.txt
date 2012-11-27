@@ -1,0 +1,17 @@
+Je fais mon depot initial : git add .
+On ajoute ici tous les fichiers de /etc
+
+Si on fait un git status, on remarque en haut les fichiers à commettre
+
+On fait : git commit
+
+si on refait un git status : les fichiers sont indisponible
+
+on fait une modification d'un fichier : il est disponible en faisait un git status
+
+
+si on refait un commit : on doit ajouter un message pour la révision
+
+si on fait : git commit -m "modification du fichier"
+on ne voit plus de message apparaitre
+
