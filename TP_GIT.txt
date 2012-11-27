@@ -15,3 +15,24 @@ si on refait un commit : on doit ajouter un message pour la révision
 si on fait : git commit -m "modification du fichier"
 on ne voit plus de message apparaitre
 
+
+4. creation d'un compte sur GITHUB avec comme identifiant abelmehdi
+Maintenant que le dépot est créé, on ajoute les fichiers comme tel
+git remote add <nom> <url>
+on ajoute maintenant notre depot local sur le serveur
+
+git remote add abelmehdi https://github.com/abelmehdi/tp_git.git
+
+Pousse les changements locaux sur un dépôt distant. Syntaxe
+git push -u <nom> <branche>
+
+root@mehdi-po:/etc# git push -u https://github.com/abelmehdi/tp_git.git master
+Username for 'https://github.com': abelmehdi
+Password for 'https://abelmehdi@github.com':
+
+le -u permet de spécifier par défaut
+le master est considéré comme la branche principal
+
+on fait ensuite un : git pull pour retrouver tous ses fichiers
+
+
